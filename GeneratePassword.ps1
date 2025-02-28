@@ -1,8 +1,8 @@
 [CmdletBinding()]
 Param(
     [ValidateSet('eff-short', 'eff-long', 'nerd')]
-    $list = 'eff-short',
-    [string]$pattern = '{word}-{word}-{word}-{word}'
+    $list = 'nerd',
+    [string]$pattern = '{word}-{word}-{word}-{word}-{word}'
 )
 
 [string]$result = $pattern

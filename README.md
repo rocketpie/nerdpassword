@@ -1,6 +1,6 @@
 # NerdPassword
-Mnemonic passwords done ~~right~~ a little better.  
-strike that. It' my attempt at prematurely optimizing a dead technology :) 
+Mnemonic passwords done ~~right~~ ~~a little better~~.  
+strike that. It's just my attempt at prematurely optimizing a dead technology :) 
 
 To start off, a quick reference to the all-time nerd hero Randall Munroe:  
 https://xkcd.com/936/
@@ -103,7 +103,7 @@ If we just had more 3 or 4 letter words, we'd get more consistent passwords with
 But we need to be careful.
 The reason we use 'words' instead of random characters, is that words are *highly recognizable*
 
-These are EFF's three letter words:  
+These are all of EFF's three letter words:  
 aim art bok bud cod cot cub cut dab dad dig dot dry dug duo eel elf elk elm emu fax  
 fit foe fog fox gag gap gas gem gig gut guy hub hug hut ice icy ion ivy jab jam jet  
 job jog jot joy keg lid lip map mom mop mud mug nag nap net oak oat oil old opt owl  
@@ -121,3 +121,27 @@ but, and this is crucial:
 I believe that re-rolling when some word's don't 'klick' with you is so specific to the user  
 that no attacker can generally remove them from the list.
 
+
+### upredictable delimitation
+
+capitalization and dashes help to delimit words in a passphrase.
+
+this isn't really recognizable: `dishnaguponaim`  
+but both dashes (`dish-nag-upon-aim`)  
+can capitalization (`DishNagUponAim`)   
+is predictable, and does not add entropy.
+
+Let's try digits: `mace8grip6vowel1race` 
+
+this is from the eff short list, and provides 
+
+$$ \log_2 (listsize^{wordcount} * 10^{digitcount}) => \log_2 (1295^{4} * 1000) \approx 51 $$
+
+51 bits in 20 characters. nice.
+
+But 8 6 1 might not be as easily memorable as another word.  
+e.g. `clink-broil-shop-atlas-muse`
+
+$$ \log_2 listsize^{wordcount} => \log_2 1295^{5} \approx 61 $$
+
+this might not be worth the tradeoff.
