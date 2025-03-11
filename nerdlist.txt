@@ -118,10 +118,10 @@ ben
 ber
 bet
 bga
-bgb 
+bgb
 bgh
 bgp
-bgp 
+bgp
 bhv
 bic
 big
@@ -587,7 +587,7 @@ kgb
 kia
 kkk
 klm
-klm 
+klm
 kmh
 kmu
 knd
@@ -637,11 +637,11 @@ lsb
 lsl
 ltb
 lua
-lua 
+lua
 lud
 lui
 luv
-luv 
+luv
 lux
 lvl
 lxc
@@ -862,7 +862,7 @@ put
 pvc
 pvt
 pwc
-pwc 
+pwc
 pwd
 pwm
 pxe
@@ -880,7 +880,7 @@ ran
 rap
 rar
 ras
-ras 
+ras
 rat
 rax
 rbb
@@ -954,7 +954,7 @@ seq
 sex
 sga
 sgb
-sgb 
+sgb
 sgx
 sha
 sia
@@ -1207,7 +1207,7 @@ zfa
 zif
 zig
 zip
-zip 
+zip
 zna
 zob
 zoe
